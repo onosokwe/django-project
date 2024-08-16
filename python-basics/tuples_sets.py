@@ -20,3 +20,12 @@ fruits = {'Apples', 'Pear', 'Mango', 'Orange', 'Corn', 'Avocado', 'Guava'}
 
 print('Pear' in fruits)
 
+fruits.add('Grapes')
+
+fruits.remove('Pear')
+
+print(fruits)
+
+fruits.clear()
+
+print(fruits)
