@@ -1,4 +1,4 @@
-# Lists
+# Lists (or basically what other languages know as arrays)
 
 numbers = [1,2,3,4,5,6,7,8,9]
 
@@ -25,3 +25,4 @@ fruits.insert(2, 'Avocado')
 fruits.pop(2)
 
 print(fruits)
+
