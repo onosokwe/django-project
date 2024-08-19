@@ -31,3 +31,18 @@ person['phone'] = '806-888-000-99'
 # print(person.keys())
 
 print(person.items())
+
+# COpy dictionaries
+
+person2 = person.copy()
+
+person2['city'] = 'Lagos'
+
+# print(person2)
+
+# Remove item
+
+del(person['age'])
+person.pop('phone')
+
+print(person)
