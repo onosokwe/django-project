@@ -45,4 +45,11 @@ person2['city'] = 'Lagos'
 del(person['age'])
 person.pop('phone')
 
-print(person)
+# print(person)
+
+#Clear dictionary
+
+person.clear()
+
+# get length
+print(len(person))
