@@ -53,3 +53,10 @@ person.clear()
 
 # get length
 print(len(person))
+
+person3 = [
+    {'name':'Andrew', 'age':80},
+    {'name':'Kelvin', 'age': 89}
+]
+
+print(person3[0])
